@@ -90,7 +90,6 @@ El mapa debe estar formado por los siguientes caracteres:
 - `C` → Ítem recolectable
 - `E` → Salida
 
-| \`\`\`             |
 | ------------------ |
 | 1111111111111111   |
 | 10010000000000C1   |
@@ -98,10 +97,6 @@ El mapa debe estar formado por los siguientes caracteres:
 | 1P0000CE00000001   |
 | 1111111111111111   |
 | ------------------ |
-| \`\`\`             |
-
-
-
 
 Reglas básicas del mapa:
 
