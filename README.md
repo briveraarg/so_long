@@ -22,7 +22,9 @@ Antes de compilar, asegurate de tener `cmake` instalado para poder construir la 
 ### 1. Compilar el proyecto
 
 ```bash
-make
+   git clone https://github.com/yourusername/so_long.git
+   cd so_long
+   make
 ```
 
 Este comando:
@@ -90,11 +92,6 @@ El mapa debe estar formado por los siguientes caracteres:
 - `C` → Ítem recolectable
 - `E` → Salida
 
-- 1111111111111111
-- 10010000000000C1
-- 1000011111000001
-- 1P0000CE00000001
-- 1111111111111111
 
 Reglas básicas del mapa:
 
@@ -136,6 +133,22 @@ so_long/
 - Cumple con la Norminette.
 - Maneja errores de archivos, mapas y memoria (valgrind OK).
 - Texturas cargadas desde `./textures/*.png` (validadas antes de iniciar)
+ 
+| **Gestión de Errores**                               |
+| ---------------------------------------------------- |
+| **No se proporcionó archivo**                        |
+| **El archivo del mapa no existe o esta vacio**       |
+| **El mapa no es rectangular**                        |
+| **No se puede abrir el archivo de mapa**             |
+| **El archivo de mapa contiene caracteres inválidos** |
+| **El mapa no tiene objetos coleccionables**          |
+| **El mapa no tiene salida**                          |
+| **El mapa no tiene un jugador**                      |
+| **El mapa tiene múltiples salidas o jugadores**      |
+| **El mapa no está cerrado por paredes**              |
+| **Los objetos coleccionables son inalcanzables**     |
+| **La salida es inalcanzable**                        |
+| **Errores específicos de MLX42**                     |
 
 ---
 
