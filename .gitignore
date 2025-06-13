@@ -1,0 +1,4 @@
+*.o
+libft.a
+so_long
+vscode/settings.json
