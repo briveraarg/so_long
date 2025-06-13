@@ -2,6 +2,8 @@
 
 **so_long** es un pequeño juego en 2D hecho en C usando la librería gráfica [MLX42](https://github.com/codam-coding-college/MLX42), como parte del programa 42. El objetivo del juego es recorrer un mapa recolectando todos los ítems (`C`) y llegar a la salida (`E`), todo en un entorno visual simpático con referencias al fútbol argentino 😄⚽
 
+![Demo del juego](https://github.com/briveraarg/so_long/blob/main/demo/so_long.gif?raw=true)
+
 ---
 
 ## 🧠 Requisitos
