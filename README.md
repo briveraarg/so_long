@@ -134,7 +134,7 @@ so_long/
 - Maneja errores de archivos, mapas y memoria (valgrind OK).
 - Texturas cargadas desde `./textures/*.png` (validadas antes de iniciar)
  
-### Gestión de Errores**
+### Gestión de Errores
 - No se proporcionó archivo** 
 - El archivo del mapa no existe o esta vacio**       
 - El mapa no es rectangular**                        
