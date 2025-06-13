@@ -134,20 +134,20 @@ so_long/
 - Maneja errores de archivos, mapas y memoria (valgrind OK).
 - Texturas cargadas desde `./textures/*.png` (validadas antes de iniciar)
  
-**Gestión de Errores**
-- **No se proporcionó archivo** 
-- **El archivo del mapa no existe o esta vacio**       
-- **El mapa no es rectangular**                        
-- **No se puede abrir el archivo de mapa**             
-- **El archivo de mapa contiene caracteres inválidos** 
-- **El mapa no tiene objetos coleccionables**         
-- **El mapa no tiene salida**                       
-- **El mapa no tiene un jugador**                   
-- **El mapa tiene múltiples salidas o jugadores**  
-- **El mapa no está cerrado por paredes**          
-- **Los objetos coleccionables son inalcanzables** 
-- **La salida es inalcanzable**    
-- **Errores específicos de MLX42** 
+### Gestión de Errores**
+- No se proporcionó archivo** 
+- El archivo del mapa no existe o esta vacio**       
+- El mapa no es rectangular**                        
+- No se puede abrir el archivo de mapa**             
+- El archivo de mapa contiene caracteres inválidos** 
+- El mapa no tiene objetos coleccionables**         
+- El mapa no tiene salida**                       
+- El mapa no tiene un jugador**                   
+- El mapa tiene múltiples salidas o jugadores**  
+- El mapa no está cerrado por paredes**          
+- Los objetos coleccionables son inalcanzables** 
+- La salida es inalcanzable**    
+- Errores específicos de MLX42** 
 
 ---
 
