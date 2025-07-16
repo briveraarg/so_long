@@ -57,12 +57,6 @@ make fclean
 make re
 ```
 
-### 3. Verificación de Norminette
-
-```bash
-make norminette
-```
-
 💡 **Nota**: Si estás en Linux, tu `Makefile` enlaza automáticamente las dependencias necesarias (`-lglfw -lm -ldl -lX11 -lpthread -lXrandr -lXi`). En macOS, se usan los frameworks nativos de Cocoa, OpenGL e IOKit.
 
 ---
@@ -132,7 +126,6 @@ so_long/
 
 ## 🧪 Testing y normas
 
-- Cumple con la Norminette.
 - Maneja errores de archivos, mapas y memoria (valgrind OK).
 - Texturas cargadas desde `./textures/*.png` (validadas antes de iniciar)
  
@@ -156,6 +149,6 @@ so_long/
 ## 💬 Contacto
 
 Creado por **Brenda Rivera**  
-📧 brivera@student.42madrid.com  
+📧 brennriveraa@gmail.com
 🇦🇷 Desde Argentina, estudiando en 42 Madrid  
 
